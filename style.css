@@ -1,10 +1,11 @@
 :root{
-    --color-1: #EBE1D1;
-    --color-2: #41644A;
-    --color-3: #0D4715;
-    --color-4: #e78849;
+    --color-1: #5A827E;
+    --color-2: #84AE92;
+    --color-3: #B9D4AA;
+    --color-4: #FAFFCA;
 }
-body{background-color: var(--color-3);
-color: var(--color-4);}
+body{background-color: var(--color-1);
+color: var(--color-3);}
 
-h1{color: var(--color-1);}
+h1{color: var(--color-4);}
+hr{border-color: #FAFFCA;}

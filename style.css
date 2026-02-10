@@ -9,3 +9,7 @@ color: var(--color-3);}
 
 h1{color: var(--color-4);}
 hr{border-color: #FAFFCA;}
+#header1{
+    text-align: center; font-size: xx-large;
+}
+.big{ font-size:larger}

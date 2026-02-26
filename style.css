@@ -13,3 +13,16 @@ hr{border-color: #FAFFCA;}
     text-align: center; font-size: xx-large;
 }
 .big{ font-size:larger}
+nav{
+    background-color:#436950;
+    display:flex;
+    justify-content: right;
+}
+nav a{ text-decoration: none;
+color: #FAFFCA;
+display: inline-block;
+padding: 12px;
+}
+
+
+nav a:hover{background-color: #84AE92;}

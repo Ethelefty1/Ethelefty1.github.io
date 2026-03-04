@@ -16,7 +16,8 @@ hr{border-color: #FAFFCA;}
 nav{
     background-color:#436950;
     display:flex;
-    justify-content: right;
+    justify-content: right;    position:sticky
+
 }
 nav a{ text-decoration: none;
 color: #FAFFCA;
@@ -26,3 +27,26 @@ padding: 12px;
 
 
 nav a:hover{background-color: #84AE92;}
+
+nav a:active{
+    background-color: white;
+    
+}
+
+nav a.active {
+    text-decoration: underline;
+}
+
+a:link {
+    color:#B9D4AA
+}
+
+a:hover {
+    background-color:#96a88d;
+    color:#436950
+}
+a:active{background-color:white}
+
+a:visited {color: #B9D4AA;
+
+}

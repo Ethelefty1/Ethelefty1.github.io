@@ -13,6 +13,7 @@ hr{border-color: #FAFFCA;}
     text-align: center; font-size: xx-large;
 }
 .big{ font-size:larger}
+
 nav{
     background-color:#436950;
     display:flex;
@@ -50,3 +51,20 @@ a:active{background-color:white}
 a:visited {color: #B9D4AA;
 
 }
+@media screen and (max-width: 480px) {
+    /* Mobile Devices */
+    .picture {
+        width: 300px;
+    }
+}
+        
+    
+
+
+@media screen and (min-width: 481px) and (max-width: 768px) {
+    /* Tablet Devices */
+}
+
+
+@media screen and (max-width: 769px) {
+    /* Laptop/Desktop Devices */}

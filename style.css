@@ -54,10 +54,14 @@ a:visited {color: #B9D4AA;
 @media screen and (max-width: 480px) {
     /* Mobile Devices */
     .picture {
-        width: 300px;
+        width: 300px; border-radius: 25%;
     }
+    
 }
-        
+    .text{ text-align: center;
+        font-size: x-large;
+
+    }    
     
 
 
